@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendientes y Completados</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="tasks">
+            <h1>Pendientes:</h1>
+            <ul id="pendientes">
+                <li class="task">
+                    <span>Hacer el tipo test del examen</span>
+                    <button class="complete-btn">
+                        <img src="./marca-de-verificacion.png" alt="Completar">
+                    </button>
+                </li>
+                <li class="task">
+                    <span>Hacer este ejercicio</span>
+                    <button class="complete-btn">
+                        <img src="./marca-de-verificacion.png" alt="Completar">
+                    </button>
+                </li>
+                <li class="task">
+                    <span>Hacer un figma para gestionar mesas</span>
+                    <button class="complete-btn">
+                        <img src="./marca-de-verificacion.png" alt="Completar">
+                    </button>
+                </li>
+            </ul>
+        </div>
+        <div class="tasks">
+            <h1>Completados:</h1>
+            <ul id="completados"></ul>
+        </div>
+    </div>
+    <script src="scriptie.js"></script>
+</body>
+</html>
